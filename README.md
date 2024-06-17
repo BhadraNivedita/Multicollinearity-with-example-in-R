@@ -10,5 +10,7 @@ Multicollinearity refers to a situation in statistical modelling where two or mo
 3. Large changes in coefficients as soon as a new predictor is added to the model
 4. Coefficients have opposite signs that of expected from the theory
 5. High VIF(variance inflation factor) and low tolerance
-6. Cofficents of a subset of the sample are widely different
-7. High condition indices
+   VIF measures how much the variance of a regression coefficient is inflated due to multicollinearity.VIF values greater than 10 or sometimes greater than 5 indicate high multicollinearity. The reciprocal of VIF is tolerance and a value close to zero indicates high multicollinearity. 
+7. Cofficents of a subset of the sample are widely different
+8. High condition indices
+   Condition index is derived from the eigenvalues of the scaled, centered matrix of predictors. A condition index greater than 30 indicates potential multicollinearity. 
