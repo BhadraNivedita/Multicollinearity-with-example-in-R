@@ -19,4 +19,20 @@ Multicollinearity refers to a situation in statistical modelling where two or mo
 
 8. Eigenvalues and eigenvectors:
 
-   Decompose the correlation matrix of the predictors . Small eigenvalues indicate multicollinearity.
+   Decompose the correlation matrix of the predictors. Small eigenvalues indicate multicollinearity.
+
+
+## Addressing multicollinearity:
+
+1. Remove highly correlated predictors
+2. Combine variables:
+
+3. Introducing principal component analysis and applying them as predictors can help.
+4. Regularization methods e.g., Ridge regression, and Lasso regression where penalties for large coefficients are introduced can improve the effects of multicollinearity.
+5. Cenetering the predictors:
+
+   Subtracting the mean values of a specific predictor from its original value centers the values of predictors which can help in such a situation.
+
+6. A bigger sample size if possible helps reduce the variance of the estimates.
+
+In the Jupyter notebook, there is a worked-out example showing some of the effects and  how to improve the model introducing a few above-mentioned techniques.
