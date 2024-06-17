@@ -15,4 +15,8 @@ Multicollinearity refers to a situation in statistical modelling where two or mo
 6. Cofficents of a subset of the sample are widely different
 7. High condition indices:
    
-   The condition index is derived from the eigenvalues of the scaled, centred matrix of predictors. A condition index greater than 30 indicates potential multicollinearity. 
+   The condition index is derived from the eigenvalues of the scaled, centred matrix of predictors. A condition index greater than 30 indicates potential multicollinearity.
+
+8. Eigenvalues and eigenvectors:
+
+   Decompose the correlation matrix of the predictors . Small eigenvalues indicate multicollinearity.
