@@ -6,7 +6,7 @@ Multicollinearity refers to a situation in statistical modelling where two or mo
 ### Indications of multicollinearity 
 
 1. High standard errors for regression coefficients
-2. Overall model is significant but none of the predictors
+2. Overall model is significant but none of the individual predictors
 3. Large changes in coefficients as soon as a new predictor is added to the model
 4. Coefficients have opposite signs that of expected from the theory
 5. High VIF(variance inflation factor) and low tolerance
